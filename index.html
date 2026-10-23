@@ -3,242 +3,205 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sovereign Memory is a local, encrypted memory layer for AI conversations.">
-  <meta name="theme-color" content="#08111b">
-  <title>Sovereign Memory — Your history. Your vault. Your choice.</title>
+  <meta name="description" content="Sovereign Memory gives your AI history an independent, encrypted home under your control.">
+  <meta name="theme-color" content="#07121c">
+  <meta property="og:title" content="Sovereign Memory — Your AI history, under your control.">
+  <meta property="og:description" content="Keep the context. Change the model. Sovereign Memory is a local-first, encrypted memory layer for AI conversations.">
+  <title>Sovereign Memory — Keep the context. Change the model.</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Sovereign Memory home">
-      <span class="brand-mark" aria-hidden="true">SM</span>
-      <span class="brand-name">Sovereign <em>Memory</em></span>
-    </a>
-    <nav class="site-nav" aria-label="Primary navigation">
-      <a href="#how-it-works">How it works</a>
-      <a href="#privacy">Privacy</a>
-      <a href="#downloads">Downloads</a>
-      <a class="nav-cta" href="#founders">Founding beta</a>
-    </nav>
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Sovereign Memory home">
+        <span class="brand-mark" aria-hidden="true">SM</span>
+        <span class="brand-name">Sovereign <em>Memory</em></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-icon" aria-hidden="true">☰</span><span>Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#demos">See it in action</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-cta" href="#founders">Founding beta</a>
+      </nav>
+    </div>
   </header>
 
   <main id="main">
     <section class="hero section-shell" id="top">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="pulse-dot"></span> Owner-operated alpha · local-first</p>
+        <p class="eyebrow"><span class="pulse-dot"></span> Your memory. Your machine. Your choice.</p>
         <h1>Your AI provider should be replaceable.<br><span>Your memories shouldn’t have to be.</span></h1>
-        <p class="hero-lede">Sovereign Memory turns your exported AI conversations into a private, encrypted memory you can search, inspect and carry between compatible models.</p>
+        <p class="hero-lede">You have spent months or years building ideas, solving problems and finding a way of working with AI. Sovereign Memory gives that history an independent, encrypted home—so you can find what matters and choose what to carry forward.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#how-it-works">See the idea <span aria-hidden="true">↘</span></a>
-          <a class="button button-quiet" href="#downloads">Follow the release</a>
+          <a class="button button-primary" href="#demos">See it in action <span aria-hidden="true">↘</span></a>
+          <a class="button button-quiet" href="#how-it-works">How it works</a>
         </div>
-        <p class="hero-note"><span aria-hidden="true">✦</span> No hosted archive. No developer-held credentials. No hidden model calls.</p>
+        <div class="hero-trust" aria-label="Product principles">
+          <span><i>✓</i> Local encrypted storage</span>
+          <span><i>✓</i> No hosted archive required</span>
+          <span><i>✓</i> User-approved context</span>
+        </div>
+        <p class="hero-note"><span aria-hidden="true">✦</span> Owner-operated alpha · synthetic demonstrations · no payment collected</p>
       </div>
 
-      <div class="hero-console" aria-label="Illustration of the Sovereign Memory console">
-        <div class="console-topbar">
-          <span class="window-dots"><i></i><i></i><i></i></span>
-          <span class="console-title">sovereign-memory / vault</span>
-          <span class="console-lock" aria-label="Encrypted">⌁ encrypted</span>
-        </div>
-        <div class="console-body">
-          <div class="console-status">
-            <div>
-              <span class="status-label">LOCAL VAULT</span>
-              <strong>Example / local memory</strong>
+      <div class="hero-visual-wrap">
+        <div class="hero-visual" aria-label="Illustrative Sovereign Memory interface using synthetic content">
+          <div class="app-topbar">
+            <span class="window-dots"><i></i><i></i><i></i></span>
+            <span class="app-title">sovereign-memory / vault</span>
+            <span class="app-badge">DEMO DATA ONLY</span>
+          </div>
+          <div class="app-layout">
+            <aside class="app-sidebar">
+              <span class="sidebar-kicker">LOCAL VAULT</span>
+              <strong>Example archive</strong>
+              <span class="sidebar-state"><i></i> encrypted · open</span>
+              <div class="sidebar-divider"></div>
+              <span class="sidebar-label">SEARCH MODES</span>
+              <span class="sidebar-item is-active">⌕ Hybrid retrieval</span>
+              <span class="sidebar-item">≡ Exact evidence</span>
+              <span class="sidebar-item">◷ Timeline</span>
+              <div class="sidebar-bottom">No personal data shown</div>
+            </aside>
+            <div class="app-main">
+              <div class="app-heading"><div><span class="app-kicker">PINPOINT SEARCH</span><h2>Find the moment.</h2></div><span class="mode-pill">HYBRID</span></div>
+              <div class="app-query"><span aria-hidden="true">⌕</span><span>Where did we settle the archive format?</span><kbd>↵</kbd></div>
+              <div class="app-result">
+                <div class="result-meta"><span class="result-tag">RELEVANT PASSAGE</span><span>Example conversation · 14 Sep 2026</span></div>
+                <strong>“Use the portable format so the source can outlast the tool.”</strong>
+                <p>Original message · surrounding exchange available · provenance retained</p>
+                <div class="result-footer"><span>Exact + semantic match</span><span>Open source ↗</span></div>
+              </div>
+              <div class="app-footnote"><span class="shield">◈</span> Nothing leaves without a destination-aware decision.</div>
             </div>
-            <span class="live-badge">DEMO</span>
           </div>
-          <div class="console-metrics">
-            <div><strong>DEMO</strong><span>sample archive</span></div>
-            <div><strong>LOCAL</strong><span>example only</span></div>
-          </div>
-          <div class="console-search">
-            <span aria-hidden="true">⌕</span>
-            <span>Search your history by meaning or exact words…</span>
-            <kbd>↵</kbd>
-          </div>
-          <div class="console-result">
-            <div class="result-line"><span class="result-tag">PINPOINT MATCH</span><span>source · imported conversation</span></div>
-            <strong>“A source-backed result appears here.”</strong>
-            <p>Original message · surrounding exchange available · provenance retained</p>
-          </div>
-          <div class="console-footer"><span class="shield">◈</span> Nothing leaves without a destination-aware decision.</div>
         </div>
+        <p class="visual-caption"><span>Illustrative interface</span> · all content is synthetic</p>
       </div>
     </section>
 
-    <section class="signal-band" aria-label="Product principles">
-      <div class="section-shell signal-grid">
-        <span><b>01</b> Import the history</span>
-        <span><b>02</b> Encrypt it locally</span>
-        <span><b>03</b> Find the evidence</span>
+    <section class="proof-rail" aria-label="Sovereign Memory product flow">
+      <div class="section-shell proof-grid">
+        <span><b>01</b> Bring your history home</span>
+        <span><b>02</b> Keep the original evidence</span>
+        <span><b>03</b> Find the useful moment</span>
         <span><b>04</b> Choose what travels</span>
       </div>
     </section>
 
+    <section class="section-shell problem-section">
+      <div class="section-heading narrow-heading">
+        <p class="eyebrow">The problem</p>
+        <h2>Your conversations remember the journey. Your next AI might not.</h2>
+        <p>A new model can be impressive and still know nothing about the history that makes your work meaningful.</p>
+      </div>
+      <div class="problem-grid">
+        <article class="problem-card"><span class="card-number">01</span><h3>The project</h3><p>Six months of decisions, experiments and revisions are trapped inside the conversations that shaped them.</p></article>
+        <article class="problem-card"><span class="card-number">02</span><h3>The missing moment</h3><p>You remember the idea, but not the exact words, date or exchange where it first became clear.</p></article>
+        <article class="problem-card problem-card-accent"><span class="card-number">03</span><h3>The provider change</h3><p>A better model appears, and suddenly you have to explain your context, preferences and work all over again.</p></article>
+      </div>
+      <p class="section-closer">Your history should outlast the model that helped create it.</p>
+    </section>
+
     <section class="section-shell story-section" id="how-it-works">
       <div class="section-heading">
-        <p class="eyebrow">The missing layer</p>
-        <h2>Changing models shouldn’t mean starting over.</h2>
-        <p>ChatGPT, Claude, local models and whatever comes next are tools. The history you built with them is yours.</p>
+        <p class="eyebrow">How it works</p>
+        <h2>Three parts. One memory you control.</h2>
+        <p>ChatVault prepares the history. Sovereign Memory protects and retrieves it. Multiroom lets you decide what context a compatible model receives.</p>
       </div>
-
       <div class="flow-map" aria-label="ChatVault to Sovereign Memory to Multiroom flow">
-        <article class="flow-card flow-source">
-          <span class="card-number">01</span>
-          <span class="flow-icon">↥</span>
-          <h3>ChatVault</h3>
-          <p>Prepare ChatGPT and Claude exports while keeping their source, authorship and chronology intact.</p>
-          <span class="card-foot">history in · provenance preserved</span>
-        </article>
+        <article class="flow-card flow-source"><span class="card-number">01</span><span class="flow-icon">↥</span><h3>ChatVault</h3><p>Bring supported ChatGPT and Claude exports home while preserving available source, authorship and chronology.</p><span class="card-foot">history in · provenance preserved</span></article>
         <div class="flow-arrow" aria-hidden="true">→</div>
-        <article class="flow-card flow-core">
-          <span class="card-number">02</span>
-          <span class="flow-icon">◈</span>
-          <h3>Sovereign Memory</h3>
-          <p>Store the archive in an encrypted local vault. Search by meaning, exact evidence and time.</p>
-          <span class="card-foot">the memory remains yours</span>
-        </article>
+        <article class="flow-card flow-core"><span class="card-number">02</span><span class="flow-icon">◈</span><h3>Sovereign Memory</h3><p>Keep the archive in an encrypted local vault. Search by exact wording, meaning and time.</p><span class="card-foot">the memory remains yours</span></article>
         <div class="flow-arrow" aria-hidden="true">→</div>
-        <article class="flow-card flow-room">
-          <span class="card-number">03</span>
-          <span class="flow-icon">◌</span>
-          <h3>Multiroom</h3>
-          <p>Give selected evidence to compatible models, with a visible preview before anything is sent.</p>
-          <span class="card-foot">context out · only by choice</span>
-        </article>
+        <article class="flow-card flow-room"><span class="card-number">03</span><span class="flow-icon">◌</span><h3>Multiroom</h3><p>Supply selected evidence to compatible models with a visible destination and disclosure preview.</p><span class="card-foot">context out · only by choice</span></article>
+      </div>
+      <div class="flow-caption"><span>AI exports</span><b>→</b><span>Local encrypted vault</span><b>→</b><span>Authorised model context</span></div>
+    </section>
+
+    <section class="section-shell continuity-section" id="continuity">
+      <div class="section-heading narrow-heading">
+        <p class="eyebrow">Continuity without captivity</p>
+        <h2>Keep the context. Change the model.</h2>
+        <p>This is portable context—not a promise that different models become identical, and not a replacement for your judgement.</p>
+      </div>
+      <div class="continuity-compare">
+        <article class="compare-panel compare-muted"><span class="compare-label">WITHOUT A MEMORY LAYER</span><h3>Start over</h3><p>A new model begins without the decisions, preferences and source material you built elsewhere.</p><div class="empty-chat"><span>Hello. How can I help?</span><small>context unavailable</small></div></article>
+        <div class="compare-arrow" aria-hidden="true">→</div>
+        <article class="compare-panel compare-accent"><span class="compare-label">WITH APPROVED CONTEXT</span><h3>Continue</h3><p>You select the relevant history, inspect what will be used and carry only authorised context forward.</p><div class="context-stack"><span>3 approved excerpts</span><span>source-linked</span><span>destination shown</span></div></article>
       </div>
     </section>
 
-    <section class="section-shell feature-section">
-      <div class="feature-grid">
-        <article class="feature-card feature-large">
-          <span class="feature-kicker">RETRIEVAL, NOT GUESSWORK</span>
-          <h2>Find the moment, not merely the conversation.</h2>
-          <p>Hybrid retrieval combines exact phrases with semantic similarity. Results can point to the matching passage, message, timestamp and original source instead of presenting an entire unrelated thread.</p>
-          <div class="mini-thread" aria-hidden="true">
-            <span class="thread-line thread-muted">A long conversation about many things…</span>
-            <span class="thread-line thread-hit"><b>Example phrase</b> · selected passage</span>
-            <span class="thread-line thread-muted">The next turn continues the derivation…</span>
-          </div>
-        </article>
-        <article class="feature-card">
-          <span class="feature-icon">⌂</span>
-          <h3>Private by construction</h3>
-          <p>The vault lives on your machine. Local inference remains possible, and external destinations are optional rather than assumed.</p>
-        </article>
-        <article class="feature-card feature-accent">
-          <span class="feature-icon">⟡</span>
-          <h3>Evidence with a lineage</h3>
-          <p>Original messages stay distinguishable from summaries, derived memories and model-generated conclusions.</p>
-        </article>
+    <section class="section-shell demos-section" id="demos">
+      <div class="section-heading">
+        <p class="eyebrow">See the idea in action</p>
+        <h2>Small demonstrations. Clear boundaries.</h2>
+        <p>These are lightweight, self-contained examples using fictional data. They do not connect to a vault or call an AI service.</p>
+      </div>
+      <div class="demo-tabs" role="tablist" aria-label="Product demonstrations">
+        <button class="demo-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="demo-search" data-demo="search"><span>01</span> Pinpoint search</button>
+        <button class="demo-tab" type="button" role="tab" aria-selected="false" aria-controls="demo-switch" data-demo="switch"><span>02</span> Change the model</button>
+        <button class="demo-tab" type="button" role="tab" aria-selected="false" aria-controls="demo-disclosure" data-demo="disclosure"><span>03</span> Disclosure preview</button>
+      </div>
+
+      <div class="demo-panel is-active" id="demo-search" role="tabpanel">
+        <div class="demo-copy"><span class="demo-kicker">EXACT + SEMANTIC</span><h3>Find the passage, then open the exchange.</h3><p>A useful result should show what matched, where it came from and how to inspect the surrounding conversation.</p><div class="demo-queries" role="group" aria-label="Example search queries"><button type="button" class="query-chip is-active" data-query="archive">Where did we settle the archive format?</button><button type="button" class="query-chip" data-query="ember">Find the discussion about the ember image.</button><button type="button" class="query-chip" data-query="exact">Show the exact phrase about portable memory.</button></div></div>
+        <div class="demo-screen search-screen"><div class="screen-toolbar"><span>Example archive</span><span class="screen-status">SYNTHETIC DATA</span></div><div class="screen-search"><span>⌕</span><strong id="demo-query">Where did we settle the archive format?</strong></div><div class="screen-result"><div class="result-meta"><span class="result-tag" id="demo-result-tag">PINPOINT MATCH</span><span id="demo-result-meta">Example conversation · 14 Sep 2026</span></div><h4 id="demo-result-title">Portable archive format</h4><p id="demo-result-text">“Use the portable format so the source can outlast the tool.”</p><div class="result-footer"><span id="demo-result-mode">Exact + semantic match</span><span>Open surrounding exchange ↗</span></div></div><div class="screen-lines"><i></i><i></i><i></i></div></div>
+      </div>
+
+      <div class="demo-panel" id="demo-switch" role="tabpanel" hidden>
+        <div class="demo-copy"><span class="demo-kicker">PORTABLE CONTEXT</span><h3>Keep the working relationship. Change the model.</h3><p>Approved context can be presented to a different compatible model without pretending the models are the same.</p><div class="model-picker" role="group" aria-label="Choose example model"><button class="model-chip is-active" type="button" data-model="local">Local model</button><button class="model-chip" type="button" data-model="external">External model</button></div></div>
+        <div class="demo-screen switch-screen"><div class="screen-toolbar"><span>Model continuity preview</span><span class="screen-status">ILLUSTRATIVE</span></div><div class="switch-grid"><div class="context-column"><span class="screen-label">APPROVED CONTEXT</span><span class="context-token">Project goal</span><span class="context-token">Settled approach</span><span class="context-token">Source reference</span><small>3 excerpts · user selected</small></div><div class="response-column"><div class="model-header"><span class="model-dot" id="model-dot"></span><strong id="model-name">Local model</strong><span class="model-ready">READY</span></div><p id="model-response">I can continue from the selected project context. I’ll keep the source references visible and flag anything the excerpts do not establish.</p><div class="response-foot">Same approved context · different model</div></div></div></div>
+      </div>
+
+      <div class="demo-panel" id="demo-disclosure" role="tabpanel" hidden>
+        <div class="demo-copy"><span class="demo-kicker">DESTINATION-AWARE</span><h3>See what leaves before it leaves.</h3><p>The vault is local. A selected payload is a separate decision, with the destination and approval state visible.</p><div class="destination-picker" role="group" aria-label="Choose example destination"><button class="destination-chip is-active" type="button" data-destination="local">Device-local</button><button class="destination-chip" type="button" data-destination="external">External endpoint</button></div></div>
+        <div class="demo-screen disclosure-screen"><div class="screen-toolbar"><span>Disclosure preview</span><span class="screen-status" id="disclosure-status">DEVICE-LOCAL</span></div><div class="disclosure-destination"><span class="destination-dot" id="destination-dot"></span><div><strong id="destination-name">Ollama · 127.0.0.1</strong><small id="destination-detail">Prepared on this machine · no network transmission</small></div></div><div class="payload-row"><span>Selected payload</span><strong>3 excerpts · 1,284 characters</strong></div><div class="payload-row"><span>Approval</span><strong id="approval-state">Still required</strong></div><div class="disclosure-note" id="disclosure-note">Local processing is available, but the user remains the authority.</div></div>
       </div>
     </section>
 
     <section class="section-shell privacy-section" id="privacy">
-      <div class="privacy-copy">
-        <p class="eyebrow">A visible boundary</p>
-        <h2>Disclosure is a decision, not a side effect.</h2>
-        <p>When a model needs context, Sovereign Memory can show the destination, the selected payload and the character count before dispatch. The vault itself never leaves.</p>
-        <div class="privacy-list">
-          <span><i>✓</i> Device-local by default</span>
-          <span><i>✓</i> Scope-aware retrieval</span>
-          <span><i>✓</i> Consent before external dispatch</span>
-          <span><i>✓</i> Encrypted disclosure ledger</span>
-        </div>
-      </div>
-      <div class="consent-demo">
-        <div class="consent-tabs" role="tablist" aria-label="Destination examples">
-          <button class="consent-tab is-active" role="tab" aria-selected="true" aria-controls="local-panel" data-destination="local">Local model</button>
-          <button class="consent-tab" role="tab" aria-selected="false" aria-controls="external-panel" data-destination="external">External model</button>
-        </div>
-        <div class="consent-panel is-active" id="local-panel" role="tabpanel">
-          <div class="panel-header"><span class="panel-dot local-dot"></span><span>Ollama · 127.0.0.1</span><span class="panel-trust">DEVICE-LOCAL</span></div>
-          <p>Selected archive excerpts are prepared on this machine. Nothing is transmitted beyond the device.</p>
-          <div class="panel-row"><span>Preview</span><strong>available</strong></div>
-          <div class="panel-row"><span>Approval</span><strong>still required</strong></div>
-        </div>
-        <div class="consent-panel" id="external-panel" role="tabpanel" hidden>
-          <div class="panel-header"><span class="panel-dot external-dot"></span><span>External provider · destination shown</span><span class="panel-trust">EXTERNAL</span></div>
-          <p>Only the frozen, approved payload is eligible to leave. Revocation is checked again immediately before dispatch.</p>
-          <div class="panel-row"><span>Preview</span><strong>exact payload</strong></div>
-          <div class="panel-row"><span>Approval</span><strong>explicit consent</strong></div>
-        </div>
-        <div class="consent-foot">The user remains the authority.</div>
-      </div>
+      <div class="privacy-copy"><p class="eyebrow">Privacy should be inspectable</p><h2>Disclosure is a decision, not a side effect.</h2><p>The archive is kept separate from the context a model may receive. Local inference remains possible; external destinations are optional and visible.</p><div class="privacy-list"><span><i>✓</i> Encrypted local storage</span><span><i>✓</i> Scope-aware retrieval</span><span><i>✓</i> Consent before external dispatch</span><span><i>✓</i> Traceable disclosure activity</span></div></div>
+      <div class="privacy-card"><div class="privacy-card-top"><span class="shield">◈</span><span>THE USER REMAINS THE AUTHORITY</span></div><div class="privacy-card-line"><span>Vault</span><strong>stays on your machine</strong></div><div class="privacy-card-line"><span>Destination</span><strong>shown before dispatch</strong></div><div class="privacy-card-line"><span>Payload</span><strong>frozen for approval</strong></div><div class="privacy-card-line"><span>Revocation</span><strong>checked again at send</strong></div><p>Technical details and known limitations will be published as the product moves toward release.</p></div>
     </section>
 
-    <section class="section-shell transition-section">
-      <div class="section-heading compact-heading">
-        <p class="eyebrow">Provider change, without amnesia</p>
-        <h2>Keep the relationship. Change the model.</h2>
-      </div>
-      <div class="transition-grid">
-        <div class="transition-step"><span>01</span><strong>Export</strong><p>Bring your existing conversations home.</p></div>
-        <div class="transition-step"><span>02</span><strong>Remember</strong><p>Retrieve the decisions, ideas and moments that matter.</p></div>
-        <div class="transition-step"><span>03</span><strong>Choose</strong><p>Approve the context a new model is allowed to see.</p></div>
-        <div class="transition-step"><span>04</span><strong>Continue</strong><p>Work with a different model without rebuilding everything.</p></div>
-      </div>
+    <section class="section-shell status-section" id="status">
+      <div class="section-heading"><p class="eyebrow">Build status</p><h2>Clear about what exists. Clear about what comes next.</h2></div>
+      <div class="status-grid"><article class="status-card status-now"><span class="status-state">OWNER-OPERATED ALPHA</span><h3>Working in development</h3><p>Encrypted local vault, archive import, provenance-aware retrieval and local model workflows are being exercised in the owner pilot.</p></article><article class="status-card"><span class="status-state">HARDENING</span><h3>Preparing for release</h3><p>Packaging, recovery decisions, installation, resilience and independent validation remain before a public beta.</p></article><article class="status-card"><span class="status-state">PLANNED</span><h3>Founding programme</h3><p>Public downloads, a limited founding beta and additional provider paths will be announced only when ready.</p></article></div>
     </section>
 
     <section class="section-shell founders-section" id="founders">
-      <div class="founders-card">
-        <div>
-          <p class="eyebrow">Planned founding beta</p>
-          <h2>Help build something worth owning.</h2>
-          <p>The founding programme is planned for 1,000 testers at A$29 for the complete software. Participation rewards honest testing and feedback—not positive reviews.</p>
-        </div>
-        <div class="founders-meta">
-          <div><strong>A$29</strong><span>planned founding price</span></div>
-          <div><strong>1,000</strong><span>planned places</span></div>
-          <span class="planned-pill">NOT OPEN YET</span>
-        </div>
-      </div>
-      <p class="founders-note">The beta opens only after the owner pilot, packaging, recovery and privacy checks are ready. No purchase is being taken on this draft site.</p>
+      <div class="founders-card"><div><p class="eyebrow">Planned founding beta</p><h2>Help build something worth owning.</h2><p>The founding programme is planned for 1,000 testers at A$29 for the complete software. Honest testing and critical feedback will matter more than positive reviews.</p></div><div class="founders-meta"><div><strong>A$29</strong><span>planned founding price</span></div><div><strong>1,000</strong><span>planned places</span></div><span class="planned-pill">NOT OPEN YET</span></div></div>
+      <p class="founders-note">The beta opens only after the owner pilot, packaging, recovery and privacy checks are ready. No purchase or registration is being taken on this site.</p>
     </section>
 
     <section class="section-shell download-section" id="downloads">
-      <div class="download-copy">
-        <p class="eyebrow">Release channel</p>
-        <h2>Download the build. Verify the build.</h2>
-        <p>Public downloads will be published with version numbers, supported platforms, SHA-256 checksums and clear signing status. This draft does not distribute an installer yet.</p>
-      </div>
-      <div class="download-box">
-        <div class="download-top"><span class="download-mark">↓</span><span>PUBLIC RELEASE</span><span class="coming-soon">COMING SOON</span></div>
-        <div class="platforms"><span>Linux</span><span>Windows</span><span>macOS</span></div>
-        <button class="button button-disabled" type="button" disabled>Downloads are not open yet</button>
-        <p>Owner-operated alpha · unsigned builds · no payment collected</p>
+      <div class="download-copy"><p class="eyebrow">Release channel</p><h2>Download the build. Verify the build.</h2><p>Public downloads will show version numbers, supported platforms, SHA-256 checksums and clear signing status. This site does not distribute an installer yet.</p></div>
+      <div class="download-box"><div class="download-top"><span class="download-mark">↓</span><span>PUBLIC RELEASE</span><span class="coming-soon">COMING SOON</span></div><div class="platforms"><span>Linux</span><span>Windows</span><span>macOS</span></div><button class="button button-disabled" type="button" disabled>Downloads are not open yet</button><p>Owner-operated alpha · unsigned builds · no payment collected</p></div>
+    </section>
+
+    <section class="section-shell faq-section" id="faq">
+      <div class="section-heading"><p class="eyebrow">Questions worth answering</p><h2>Plain language first. Technical detail when you want it.</h2></div>
+      <div class="faq-list">
+        <details><summary>What is Sovereign Memory?</summary><p>A local-first memory layer for imported AI conversations. It is designed to preserve source history, make it searchable and let you choose which context a compatible model receives.</p></details>
+        <details><summary>Is my archive uploaded to a server?</summary><p>The product is being built around local encrypted storage. The public alpha site has no archive upload, analytics or external scripts.</p></details>
+        <details><summary>Can I use local AI models?</summary><p>Local model workflows are part of the owner-operated alpha. Public support details will be published with the release matrix.</p></details>
+        <details><summary>Can a model see my entire archive?</summary><p>No model should receive the entire vault by default. Context is selected, scoped and previewed according to the destination and the user’s approval.</p></details>
+        <details><summary>What happens if I forget my vault password?</summary><p>Password recovery is still an explicit product-design and security decision. The public release will document the supported recovery model clearly.</p></details>
+        <details><summary>Is the software available now?</summary><p>Not for public download. Sovereign Memory is currently an owner-operated alpha, with packaging and release validation still underway.</p></details>
       </div>
     </section>
 
-    <section class="section-shell honesty-section">
-      <div class="honesty-mark">!</div>
-      <div>
-        <p class="eyebrow">A clear promise</p>
-        <h2>Trust is not a feature we ask you to take on faith.</h2>
-        <p>Sovereign Memory is being built around inspectable boundaries: encrypted storage, local retrieval, explicit consent and an audit trail. It is still an alpha. We will publish what is implemented, what is tested and what remains unfinished.</p>
-      </div>
-    </section>
+    <section class="section-shell honesty-section"><div class="honesty-mark">!</div><div><p class="eyebrow">A clear promise</p><h2>Trust is not a feature we ask you to take on faith.</h2><p>Sovereign Memory is being built around inspectable boundaries: encrypted storage, local retrieval, explicit consent and traceable activity. We will publish what is implemented, what is tested and what remains unfinished.</p></div></section>
   </main>
 
-  <footer class="site-footer">
-    <div class="section-shell footer-inner">
-      <div>
-        <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">SM</span><span class="brand-name">Sovereign <em>Memory</em></span></a>
-        <p class="footer-tagline">The memory belongs to the user.</p>
-      </div>
-      <div class="footer-links">
-        <a href="#how-it-works">How it works</a>
-        <a href="#privacy">Privacy</a>
-        <a href="#downloads">Downloads</a>
-        <a href="#founders">Founding beta</a>
-      </div>
-      <div class="footer-small">Local static draft · no analytics · no external scripts</div>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="section-shell footer-inner"><div><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">SM</span><span class="brand-name">Sovereign <em>Memory</em></span></a><p class="footer-tagline">Continuity without captivity.</p></div><div class="footer-links"><a href="#how-it-works">How it works</a><a href="#demos">Demonstrations</a><a href="#privacy">Privacy</a><a href="#downloads">Downloads</a><a href="#faq">FAQ</a></div><div class="footer-small">Local static draft · no analytics · no external scripts · synthetic demonstrations only</div></div></footer>
 
   <script src="script.js"></script>
 </body>
